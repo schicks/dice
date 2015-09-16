@@ -1,0 +1,8 @@
+#!/bin/bash
+
+function roll { 
+	folder=$(dirname "${BASH_SOURCE[0]}")
+	python "$folder/roll.py" "$1" "$2";}
+function froll {
+	folder=$(dirname "${BASH_SOURCE[0]}")
+	python "$folder/froll.py" "$1";}
